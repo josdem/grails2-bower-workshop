@@ -1,0 +1,17 @@
+{
+  "name": "grails2-bower-workshop",
+  "description": "Grails2 application and bower integrarion demo",
+  "main": "",
+  "authors": [
+    "joseluis.delacruz@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/josdem/grails2-bower-workshop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
