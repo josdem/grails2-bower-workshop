@@ -1,7 +1,5 @@
 <%@ page import="com.jos.dem.Person" %>
 
-
-
 <div class="fieldcontain ${hasErrors(bean: personInstance, field: 'nickname', 'error')} required">
 	<label for="nickname">
 		<g:message code="person.nickname.label" default="Nickname" />
@@ -20,3 +18,9 @@
 
 </div>
 
+<div id="datepicker" class="fieldcontain">
+  <label for="email">
+		<g:message code="person.birthdate.label" default="Birthdate" />		
+	</label>
+	<g:textField id='birthDate' name="birthDate" maxlength="250"/>
+</div>

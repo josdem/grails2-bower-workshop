@@ -4,6 +4,7 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'person.label', default: 'Person')}" />
 		<title><g:message code="default.create.label" args="[entityName]" /></title>
+		<asset:stylesheet src="third-party/bootstrap-datepicker/dist/css/bootstrap-datepicker.css"/>		
 	</head>
 	<body>
 		<a href="#create-person" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -34,5 +35,7 @@
 				</fieldset>
 			</g:form>
 		</div>
+		<asset:javascript src="third-party/jquery/dist/jquery.js"/>
+		<asset:javascript src="third-party/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"/>		
 	</body>
 </html>
