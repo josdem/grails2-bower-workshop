@@ -18,9 +18,9 @@
 
 </div>
 
-<div id="datepicker" class="fieldcontain">
-  <label for="email">
+<div class="fieldcontain">
+  <label for="birthdate">
 		<g:message code="person.birthdate.label" default="Birthdate" />		
 	</label>
-	<g:textField id='birthDate' name="birthDate" maxlength="250"/>
+	<g:textField id='datepicker' name="birthDate" maxlength="250"/>
 </div>
