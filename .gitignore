@@ -1,3 +1,5 @@
 .classpath
 .project
+.asscache
 target/
+grails-app/assets/javascripts/third-party/
