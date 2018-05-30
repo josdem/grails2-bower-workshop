@@ -1,7 +1,7 @@
 Grails2 Bower Workshop
 ----------------------------------------------
 
-This application shows you how to set Asset Pipeline Plugin and Bower instegration in a Grails project.
+This project shows you how to set Asset Pipeline Plugin and Bower in a Grails application.
 
 #### To run the project
 
